@@ -45,11 +45,7 @@ A word that carries memories of aromas, foam, good times, and a tad bit of a bit
 
 ![image-center](./_site/assets/images/beers.jpg "https://unsplash.com"){: .align-center}
 
-<img src="{{ post.image1 | unsplash.com }}">
-
-<img src="{{ post.image1 }}">
-
-<img src="{{ site.image1 }}">
+![Image1](/miraculouscobras420-ada/assets/images/beers.jpg)
 
 # Beer and America
 
