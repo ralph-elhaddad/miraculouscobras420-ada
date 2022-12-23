@@ -47,7 +47,7 @@ A word that carries memories of aromas, foam, good times, and a tad bit of a bit
 
 Today, American beer comes in all shapes and forms. You have the choice between American lager, American pale ale, American Irish pale ale (or simply IPA), cream ale, American stout, American brown ale, and the list goes on! Now that you've chosen your beer, would you like it in a glass bottle? Or a can? Or perhaps draught in a jug? The beer industry today is simply gigantic and it is hard to keep track. Every single shop in the world has a beer fridge, major sports events around the globe are sponsored by beer, we even say "cheers" to say "thanks" or "goodbye" now what is happening here! It's more than just beer, it's culture. Now follow us to know how it all came to be.
 
-![image-center](/miraculouscobras420-ada/timeline.png "American beer timeline"){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/timeline.png "American beer timeline"){: .align-center}
 
 - As early as the 10<sup>th</sup> century, Native Americans knew about fermented beverages and were already brewing various kinds of traditional beers from **corn** [[1]][natives-beer]. It is hard to imagine for most Americans but following the arrival of the first Europeans, the Natives taught them their own way of making beers. <br/>
 - Corn beer lasted until the early 17<sup>th</sup> century, when the first English and Dutch settlers entered the American continent [[2]][concise-history]. Settlers started brewing **ale** at home, and the first Taverns of the New World saw the light. The beer business was still small and local back then as ale made in Europe was considered of higher quality, and was too expensive. <br/>
