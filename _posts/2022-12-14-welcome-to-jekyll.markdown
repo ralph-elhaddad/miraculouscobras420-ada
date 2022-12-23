@@ -43,15 +43,19 @@ image1: /assets/images/beers.jpg
 
 A word that carries memories of aromas, foam, good times, and a tad bit of a bitter taste. Is there anything better than cracking a cold beer on a sweaty, thirsty hot day at the beach, or chugging on IPA while cheering for your favorite sports team? The answer is no! Or at least according to 40% of drinkers in America, which makes :beers: beer the most popular alcoholic beverage in the United States. It has been the case since the 90's at least according to [Gallup][gallup], except for 2005 when wine took over briefly. But don't let the stats fool you: America's love story with beer goes way back - even before Europeans settled on the continent! This means the golden beverage has witnessed centuries of American history, from early European settlements until the inception of the United States, to recent times including the Prohibiton and finally the Internet Age. The first thing that comes to mind is that beer probably went through some changes during these 400 years. But is that what actually makes beer special to America? Hold my beer. What if the perception of beer in the common American memory was the real treasure here? Every generation perceived beer in the light of its own era, depending on the technologies available at the time. The result is a diverse heritage consisting of books, maps, and more recently, blogs. So how does the Internet carry the heritage of American beer? Here is our attempt to answer by resuming the early history of American beer, then analysing blog datasets in search for traces of that history in today's younger minds. 
 
-![image-center](/images/assets/images/beers.jpg "https://unsplash.com"){: .align-center}
+![image-center](./_site/assets/images/beers.jpg "https://unsplash.com"){: .align-center}
 
-<img src="{{ page.image1 | unsplash.com }}">
+<img src="{{ post.image1 | unsplash.com }}">
+
+<img src="{{ post.image1 }}">
+
+<img src="{{ site.image1 }}">
 
 # Beer and America
 
 Today, American beer comes in all shapes and forms. You have the choice between American lager, American pale ale, American Irish pale ale (or simply IPA), cream ale, American stout, American brown ale, and the list goes on! Now that you've chosen your beer, would you like it in a glass bottle? Or a can? Or perhaps draught in a jug? The beer industry today is simply gigantic and it is hard to keep track. Every single shop in the world has a beer fridge, major sports events around the globe are sponsored by beer, we even say "cheers" to say "thanks" or "goodbye" now what is happening here! It's more than just beer, it's culture. Now follow us to know how it all came to be.
 
-![image-center](/assets/images/timeline.png "American beer timeline"){: .align-center}
+![image-center](/timeline.png "American beer timeline"){: .align-center}
 
 - As early as the 10<sup>th</sup> century, Native Americans knew about fermented beverages and were already brewing various kinds of traditional beers from **corn** [[1]][natives-beer]. It is hard to imagine for most Americans but following the arrival of the first Europeans, the Natives taught them their own way of making beers. <br/>
 - Corn beer lasted until the early 17<sup>th</sup> century, when the first English and Dutch settlers entered the American continent [[2]][concise-history]. Settlers started brewing **ale** at home, and the first Taverns of the New World saw the light. The beer business was still small and local back then as ale made in Europe was considered of higher quality, and was too expensive. <br/>
