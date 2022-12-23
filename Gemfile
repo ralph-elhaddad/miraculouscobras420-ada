@@ -35,5 +35,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # added for template purposes
 gem 'jekyll-include-cache'
 gem "minimal-mistakes-jekyll"
-gem "jemoji"
+#gem "jemoji"
 
