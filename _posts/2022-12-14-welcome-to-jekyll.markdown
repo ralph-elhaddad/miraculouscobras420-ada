@@ -75,16 +75,23 @@ Let's recap. We went through America's beer history, from the arrival of ale to 
 ## Ale vs Lager
 
 The question of the century. Ale or lager? We've seen that ale precedes lager on the historical beer timeline. We also know that lager single-handedly caused the industrialisation of beer. But which is more popular on the websites? Ale or lager? We let the people decide.
-<img src="/assets/images/avl-styles.png" alt="Unique beer styles in BA and RB" width="400" class="align-center"/> <br>
+
+<img src="/miraculouscobras420-ada/assets/images/avl-styles.png" alt="Unique beer styles in BA and RB" width="400" class="align-center"/> <br>
+
 When it comes to beer styles counts, we can already see that ale comes in way more style variety than lagers on BeerAdvocate and RateBeer. This means that users tend to review different ale styles rather than lager styles. Lager seems to be considered more of a mainstream beer for beer connoisseurs, who would rather explore new tastes in the ale dimension. <br>
 But what happened to the lager children, descendants of the mighty German immigrants? Do they still prefer their traditional lager beers over West European ale? In an attempt to answer, let's look at the "American German Belt". The Belt defines the area with densest German immigrant populations during the 18th century. It includes North Eastern states like Wisconsin, Minnesota, Ohio, Illinois, Michigan, Pennsylvania, and Iowa. 
 
 ![image-center](/miraculouscobras420-ada/assets/images/german-belt.png "History Vs Actuality (we made rigth map using Tableau)"){: .align-center}
+
 The top map details the German immigration in the US circa 1872 [[3]][german-stats], while the bottom map visualizes the commitment of users across America with respect to produced beer made by their own state. To be precise, we're showing the number of local reviews within every state, divided by the state's population, multipied by 1000, to finally get the local reviews per capita (‰) for each state. (A local review defines a review on a beer that was produced in the user’s state). It is fascinating to see that German Belt users are still committed to their local beer scene even though lager became mainstream across the whole country! Beer is clearly still part of the culture there, and people are clearly involved when it comes to expressing their opinion about their local beers. <br>
 But is the German Belt population still as interested in lager as back in the day? Let's check the reviews volume first and compare it to the rest of the states:
+
 ![image-center](/miraculouscobras420-ada/assets/images/avl-reviews.png "Ale vs Lager reviews count"){: .align-center}
+
 We see no significant difference in review counts between the Belt and the rest, so the Belt does not tend to review lager more often. What about the ratings? Is the Belt prone to give better ratings to lager beer because of their cultural heritage? We aggregated the ratings across both websites to compute the average ratings of ales and lagers by the Belt across the years between 2002 and 2016.
+
 ![image-center](/miraculouscobras420-ada/assets/images/avl-ratings.png "Ale vs Lager ratings"){: .align-center}
+
  As the top graph shows, Belt users tend to rate ale better than lager, even though lager has catched up in recent years. Now looking at the difference between ratings from the German belt and the rest of the states (rest - belt), we see that the difference is negative. This means that Belt users tend to rate beers slightly better than the rest of the states, especially lagers between 2001 and 2011. But in recent years it seems like the difference is minimal (-0.025). So overall, it is hard to come to a definitive conclusion about German Belt users preferences. Beer styles evolve over time, just like users' preferences. We can not conclude that Belt users like lager better than other users, but we can say that beer is definitely still embedded in the local culture.
 
 ## Traces of Prohibition and more
@@ -94,11 +101,15 @@ We hypothesize that dry states are more likely to give less favourable beer revi
 In order to confirm or reject this hypothesis, we conduct two statistical tests: a linear regression that predicts the beer rating given a categorical attribute as input and an independent t-test on the sample means. <br>
 The first categorical attribute that we analyze is whether the beer rating comes from a dry state. Since there are no completely dry states in the US as of 2022, we have considered states that contain dry counties as "dry states". The dry states are Arkansas, Florida, Georgia, Kansas, Kentucky, Mississippi, South Dakota, Tennessee, Texas [[8]][dry-counties]. <br>
 In the linear regression, we find that there is a negative correlation between being in a dry state and writing a positive beer review. The t-statistic corresponding to this attribute is -8.45 (with a p-value of 3x10<sup>-17</sup>), which is statistically significant and confirms our initial hypothesis. For the independent t-test comparing the means, we obtain the same p-value.
+
 ![image-center](/miraculouscobras420-ada/assets/images/dry-positive.png ){: .align-center}
+
 As we can see in the violin plots above, the ratings distributions are normal which means the t-test is valid. 
 
 The second categorical attribute that we would like to take a closer look at is described as follows: we consider ratings written by a user coming from a dry state who is rating a beer that was brewed in a wet state. <br>
+
 ![image-center](/miraculouscobras420-ada/assets/images/dry-wet.png ){: .align-center}
+
 A linear regression with this attribute yields a t-statistic of -10.70 (with a p-value of 1x10<sup>-26</sup>), which is even more statistically significant and confirms our initial hypothesis. For the independent t-test comparing the means, we obtain the same p-value.
 
 |                                                     | t-statistic | p-value      |
@@ -108,8 +119,11 @@ A linear regression with this attribute yields a t-statistic of -10.70 (with a p
 
 In the same vein, we decided to explore other factors which may influence the rating of the beer depending on the user location. First, we hypothesize that people are more likely to give favourable reviews to beer that comes from the same state as the author of the rating. Second, we speculate that users are likely to give negative reviews to beers that come from their respective neighbouring states. For example, a user from California is expected to give a positive review to Californian beer and a negative review for beer from Nevada. As with the previous categorical attributes, we test these hypotheses with a linear regression and an independent t-test.
 For the local beer reviews, we obtain a positive correlation between writing a review for local beer and giving a high overall rating. The t-statistic corresponding to this attribute is 51.775 (with a p-value of 0.00 -- a negligible numerical error), which is statistically significant and confirms our initial hypothesis. For the independent t-test comparing the means, we obtain the same p-value.
+
 ![image-center](/miraculouscobras420-ada/assets/images/local.png ){: .align-center}
+
 For the neighbouring state beer reviews, we obtain a negative correlation with the final rating score. The t-statistic corresponding to this attribute is -11.444 (with a p-value of 2x10<sup>-30</sup>), which is statistically significant and confirms our initial hypothesis. We obtain the same p-value for the independent t-test.
+
 ![image-center](/miraculouscobras420-ada/assets/images/neighbor.png ){: .align-center}
 
 |                             | t-statistic | p-value      |
