@@ -1,0 +1,26 @@
+
+Team:
+  name        : "MiraculousCobras420"
+  bio         : "Team of 4 cobras, miraculous 20/20:
+  Ralph El Haddad <br>
+  Emna Fendri <br>
+  Ilker Gül <br>
+  Mark Tropin
+  "
+  avatar      : "/assets/images/logo.jpg"
+  links:
+    - label: "Ralph's Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "ralph.elhaddad@epfl.ch"
+    - label: "Emna's Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "emna.fendri@epfl.ch"
+    - label: "Ilker's Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "ilker.gul@epfl.ch"
+    - label: "Mark's Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mark.tropin@epfl.ch"
+    - label: "Github Repository"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/epfl-ada/ada-2022-project-miraculouscobras420"
