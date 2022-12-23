@@ -36,22 +36,18 @@ header:
   #location : "EPFL, Lausanne"
 
 author_profile: True
-
-image1: /assets/images/beers.jpg
 ---
 # Beer
 
 A word that carries memories of aromas, foam, good times, and a tad bit of a bitter taste. Is there anything better than cracking a cold beer on a sweaty, thirsty hot day at the beach, or chugging on IPA while cheering for your favorite sports team? The answer is no! Or at least according to 40% of drinkers in America, which makes :beers: beer the most popular alcoholic beverage in the United States. It has been the case since the 90's at least according to [Gallup][gallup], except for 2005 when wine took over briefly. But don't let the stats fool you: America's love story with beer goes way back - even before Europeans settled on the continent! This means the golden beverage has witnessed centuries of American history, from early European settlements until the inception of the United States, to recent times including the Prohibiton and finally the Internet Age. The first thing that comes to mind is that beer probably went through some changes during these 400 years. But is that what actually makes beer special to America? Hold my beer. What if the perception of beer in the common American memory was the real treasure here? Every generation perceived beer in the light of its own era, depending on the technologies available at the time. The result is a diverse heritage consisting of books, maps, and more recently, blogs. So how does the Internet carry the heritage of American beer? Here is our attempt to answer by resuming the early history of American beer, then analysing blog datasets in search for traces of that history in today's younger minds. 
 
-![image-center](./_site/assets/images/beers.jpg "https://unsplash.com"){: .align-center}
-
-![Image1](/miraculouscobras420-ada/assets/images/beers.jpg)
+![image-center](/miraculouscobras420-ada/assets/images/beers.jpg){: .align-center}
 
 # Beer and America
 
 Today, American beer comes in all shapes and forms. You have the choice between American lager, American pale ale, American Irish pale ale (or simply IPA), cream ale, American stout, American brown ale, and the list goes on! Now that you've chosen your beer, would you like it in a glass bottle? Or a can? Or perhaps draught in a jug? The beer industry today is simply gigantic and it is hard to keep track. Every single shop in the world has a beer fridge, major sports events around the globe are sponsored by beer, we even say "cheers" to say "thanks" or "goodbye" now what is happening here! It's more than just beer, it's culture. Now follow us to know how it all came to be.
 
-![image-center](/timeline.png "American beer timeline"){: .align-center}
+![image-center](/miraculouscobras420-ada/timeline.png "American beer timeline"){: .align-center}
 
 - As early as the 10<sup>th</sup> century, Native Americans knew about fermented beverages and were already brewing various kinds of traditional beers from **corn** [[1]][natives-beer]. It is hard to imagine for most Americans but following the arrival of the first Europeans, the Natives taught them their own way of making beers. <br/>
 - Corn beer lasted until the early 17<sup>th</sup> century, when the first English and Dutch settlers entered the American continent [[2]][concise-history]. Settlers started brewing **ale** at home, and the first Taverns of the New World saw the light. The beer business was still small and local back then as ale made in Europe was considered of higher quality, and was too expensive. <br/>
@@ -61,15 +57,15 @@ Today, American beer comes in all shapes and forms. You have the choice between 
 
 # Beer and the Internet
 
-![image-center](/assets/images/general-stats.png "RB and BA American numbers"){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/general-stats.png "RB and BA American numbers"){: .align-center}
 
 Do we know how the average American from 1800 felt about beer at the time? There aren't even records of how much beer was brewed per year before 1800! That is why we find it fascinating that anyone can give their opinion about any beer on the **Internet**, which will keep it forever (*forever ever?*). We extracted data from two of America's biggest beer rating websites, **BeerAdvocate** (BA) and **RateBeer** (RB), to analyse and process Amerian users' ratings and reviews of a wide range of American beers. Let's start with a quick exploration of our datasets. 
 
-![image-center](/assets/images/finish.png "Top 20 most rated Beers ratings"){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/finish.png "Top 20 most rated Beers ratings"){: .align-center}
 
 Here are the top 20 beers that users review. We notice that on the one hand, BeerAdvocate users tend to review beers that are the most preferred as the mean ratings are significantly high: above 4 out of 5. On the other hand, RateBeer users tend to review more mainstream beers, like Budweiser and Heineken with 1.5 and 2.1 average ratings respectively. <br>
-![image-center](/assets/images/beer-cloud.png "What are people saying about beer?"){: .align-center}
-![image-center](/assets/images/15-cloud.jpg "What words are used the most when reviewing?"){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/beer-cloud.png "What are people saying about beer?"){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/15-cloud.jpg "What words are used the most when reviewing?"){: .align-center}
 We also generated word clouds from the reviews to check the words with highest occurences. As expected, we can see a stark difference between bad reviews (rating of 1/5) where beer is described as “watery”, “light”, “metallic” and "cheap", and excellent reviews (rating 5/5) where meliorative sensory terms are employed, like "aroma", "fruity", “fresh” and “hoppy”. 
 
 # Heritage and Actuality
@@ -83,12 +79,12 @@ The question of the century. Ale or lager? We've seen that ale precedes lager on
 When it comes to beer styles counts, we can already see that ale comes in way more style variety than lagers on BeerAdvocate and RateBeer. This means that users tend to review different ale styles rather than lager styles. Lager seems to be considered more of a mainstream beer for beer connoisseurs, who would rather explore new tastes in the ale dimension. <br>
 But what happened to the lager children, descendants of the mighty German immigrants? Do they still prefer their traditional lager beers over West European ale? In an attempt to answer, let's look at the "American German Belt". The Belt defines the area with densest German immigrant populations during the 18th century. It includes North Eastern states like Wisconsin, Minnesota, Ohio, Illinois, Michigan, Pennsylvania, and Iowa. 
 
-![image-center](/assets/images/german-belt.png "History Vs Actuality (we made rigth map using Tableau)"){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/german-belt.png "History Vs Actuality (we made rigth map using Tableau)"){: .align-center}
 The top map details the German immigration in the US circa 1872 [[3]][german-stats], while the bottom map visualizes the commitment of users across America with respect to produced beer made by their own state. To be precise, we're showing the number of local reviews within every state, divided by the state's population, multipied by 1000, to finally get the local reviews per capita (‰) for each state. (A local review defines a review on a beer that was produced in the user’s state). It is fascinating to see that German Belt users are still committed to their local beer scene even though lager became mainstream across the whole country! Beer is clearly still part of the culture there, and people are clearly involved when it comes to expressing their opinion about their local beers. <br>
 But is the German Belt population still as interested in lager as back in the day? Let's check the reviews volume first and compare it to the rest of the states:
-![image-center](/assets/images/avl-reviews.png "Ale vs Lager reviews count"){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/avl-reviews.png "Ale vs Lager reviews count"){: .align-center}
 We see no significant difference in review counts between the Belt and the rest, so the Belt does not tend to review lager more often. What about the ratings? Is the Belt prone to give better ratings to lager beer because of their cultural heritage? We aggregated the ratings across both websites to compute the average ratings of ales and lagers by the Belt across the years between 2002 and 2016.
-![image-center](/assets/images/avl-ratings.png "Ale vs Lager ratings"){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/avl-ratings.png "Ale vs Lager ratings"){: .align-center}
  As the top graph shows, Belt users tend to rate ale better than lager, even though lager has catched up in recent years. Now looking at the difference between ratings from the German belt and the rest of the states (rest - belt), we see that the difference is negative. This means that Belt users tend to rate beers slightly better than the rest of the states, especially lagers between 2001 and 2011. But in recent years it seems like the difference is minimal (-0.025). So overall, it is hard to come to a definitive conclusion about German Belt users preferences. Beer styles evolve over time, just like users' preferences. We can not conclude that Belt users like lager better than other users, but we can say that beer is definitely still embedded in the local culture.
 
 ## Traces of Prohibition and more
@@ -98,11 +94,11 @@ We hypothesize that dry states are more likely to give less favourable beer revi
 In order to confirm or reject this hypothesis, we conduct two statistical tests: a linear regression that predicts the beer rating given a categorical attribute as input and an independent t-test on the sample means. <br>
 The first categorical attribute that we analyze is whether the beer rating comes from a dry state. Since there are no completely dry states in the US as of 2022, we have considered states that contain dry counties as "dry states". The dry states are Arkansas, Florida, Georgia, Kansas, Kentucky, Mississippi, South Dakota, Tennessee, Texas [[8]][dry-counties]. <br>
 In the linear regression, we find that there is a negative correlation between being in a dry state and writing a positive beer review. The t-statistic corresponding to this attribute is -8.45 (with a p-value of 3x10<sup>-17</sup>), which is statistically significant and confirms our initial hypothesis. For the independent t-test comparing the means, we obtain the same p-value.
-![image-center](/assets/images/dry-positive.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/dry-positive.png ){: .align-center}
 As we can see in the violin plots above, the ratings distributions are normal which means the t-test is valid. 
 
 The second categorical attribute that we would like to take a closer look at is described as follows: we consider ratings written by a user coming from a dry state who is rating a beer that was brewed in a wet state. <br>
-![image-center](/assets/images/dry-wet.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/dry-wet.png ){: .align-center}
 A linear regression with this attribute yields a t-statistic of -10.70 (with a p-value of 1x10<sup>-26</sup>), which is even more statistically significant and confirms our initial hypothesis. For the independent t-test comparing the means, we obtain the same p-value.
 
 |                                                     | t-statistic | p-value      |
@@ -112,9 +108,9 @@ A linear regression with this attribute yields a t-statistic of -10.70 (with a p
 
 In the same vein, we decided to explore other factors which may influence the rating of the beer depending on the user location. First, we hypothesize that people are more likely to give favourable reviews to beer that comes from the same state as the author of the rating. Second, we speculate that users are likely to give negative reviews to beers that come from their respective neighbouring states. For example, a user from California is expected to give a positive review to Californian beer and a negative review for beer from Nevada. As with the previous categorical attributes, we test these hypotheses with a linear regression and an independent t-test.
 For the local beer reviews, we obtain a positive correlation between writing a review for local beer and giving a high overall rating. The t-statistic corresponding to this attribute is 51.775 (with a p-value of 0.00 -- a negligible numerical error), which is statistically significant and confirms our initial hypothesis. For the independent t-test comparing the means, we obtain the same p-value.
-![image-center](/assets/images/local.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/local.png ){: .align-center}
 For the neighbouring state beer reviews, we obtain a negative correlation with the final rating score. The t-statistic corresponding to this attribute is -11.444 (with a p-value of 2x10<sup>-30</sup>), which is statistically significant and confirms our initial hypothesis. We obtain the same p-value for the independent t-test.
-![image-center](/assets/images/neighbor.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/neighbor.png ){: .align-center}
 
 |                             | t-statistic | p-value      |
 |-----------------------------|-------------|--------------|
@@ -123,7 +119,7 @@ For the neighbouring state beer reviews, we obtain a negative correlation with t
 
 ## Sentiment Analysis
 
-<img src="/images/beer-ad.png" alt="https://pinterest.com" width="400" class="align-center"/> <br>
+<img src="/miraculouscobras420-ada/images/beer-ad.png" alt="https://pinterest.com" width="400" class="align-center"/> <br>
 
 On our journey from the past to the present, we have endeavored to share facts from many different perspectives about beer. So let's examine the sentiment analysis scores as an additional component of our data story. <br>
 This is the first question we need to ask. Why is sentiment analysis crucial to learn what
@@ -138,7 +134,7 @@ Sentiment Analysis model developed by [cardiffnlp][nlp].
 This is a multilingual NLP model that has been optimized for sentiment
 analysis using training data from 198M tweets.
 
-![image-center](/assets/images/sentiment_scores.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/sentiment_scores.png ){: .align-center}
 
 Looking at the figures above, we can see that for reviews with a rating of less than 2, the
 average negative sentiment score prevails with 0.6, thrice the neutral or positive scores. <br>
@@ -147,13 +143,13 @@ In comparison, rating of more than 4.5 have an average positive sentiment of 0.4
 Now let's examine the sentiment scoring of sentiment analysis which is done using the
 pre-trained model twitter-XLM-roBERTa-base by taking a look at a few examples.
 
-![image-center](/assets/images/brns.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/brns.png ){: .align-center}
 
 Here, the reviews that have the top 5 highest Negative sentiment score is displayed as a
 figure. As you can see the reviews include very negative language where disappointment
 emotions are displayed extensively.
 
-![image-center](/assets/images/brps.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/brps.png ){: .align-center}
 
 Here, you can see the content of the reviews does not include negative values when you
 concern it with respect to words used in them. However, when you check by its content, you
@@ -161,12 +157,12 @@ can see that people reviewed beers with sarcasm. Since the model checked the con
 reviews without putting effort on detecting sarcasms, the reviews got a high positive
 sentiment score.
 
-![image-center](/assets/images/grps.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/grps.png ){: .align-center}
 
 You can see the good reviews that got high positive sentiment scores and share positive
 thoughts about beers they experienced.
 
-![image-center](/assets/images/grns.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/grns.png ){: .align-center}
 
 We observed that the rating scores we can see in the reviews here are very high, and as in the
 example, we observed that the negative sentiment score was high, in which several reviews
@@ -179,7 +175,7 @@ examples to praise the product at the beginning are the main factors that cause 
 
 Now, let's check the sentiment results of reviews with extreme ratings, namely ratings under 2 or above 4.5:
 
-![image-center](/assets/images/sentiment_results.png ){: .align-center}
+![image-center](/miraculouscobras420-ada/assets/images/sentiment_results.png ){: .align-center}
 
 When we look at the results here, we observe that the sentiment prediction of the NLP model
 we use about the interpretation with a low rating is mostly negative, while the tendency to
