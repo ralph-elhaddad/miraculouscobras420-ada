@@ -8,7 +8,7 @@ categories:
   #- Uncategorized
 permalink: "/american-beer-heritage"
 
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "contrast"
 read_time: true
 
