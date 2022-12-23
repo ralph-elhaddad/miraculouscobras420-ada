@@ -21,9 +21,9 @@
 title: ADA 2022
 description: >- # this means to ignore newlines until "baseurl:"
   EPFL course Applied Data Analysis, brought to you by the one and only DLab 
-baseurl: "test" # the subpath of your site, e.g. /blog
+baseurl: "miraculouscobras420-ada" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  ralph-elhaddad2
+github_username: ralph-elhaddad
 
 # Build settings
 theme: minimal-mistakes-jekyll
