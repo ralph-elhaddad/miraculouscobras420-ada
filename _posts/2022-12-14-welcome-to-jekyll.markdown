@@ -123,7 +123,7 @@ For the neighbouring state beer reviews, we obtain a negative correlation with t
 
 ## Sentiment Analysis
 
-<img src="/assets/images/beer-ad.png" alt="https://pinterest.com" width="400" class="align-center"/> <br>
+<img src="/images/beer-ad.png" alt="https://pinterest.com" width="400" class="align-center"/> <br>
 
 On our journey from the past to the present, we have endeavored to share facts from many different perspectives about beer. So let's examine the sentiment analysis scores as an additional component of our data story. <br>
 This is the first question we need to ask. Why is sentiment analysis crucial to learn what
