@@ -42,10 +42,7 @@ author_profile: True
 A word that carries memories of aromas, foam, good times, and a tad bit of a bitter taste. Is there anything better than cracking a cold beer on a sweaty, thirsty hot day at the beach, or chugging on IPA while cheering for your favorite sports team? The answer is no! Or at least according to 40% of drinkers in America, which makes :beers: beer the most popular alcoholic beverage in the United States. It has been the case since the 90's at least according to [Gallup][gallup], except for 2005 when wine took over briefly. But don't let the stats fool you: America's love story with beer goes way back - even before Europeans settled on the continent! This means the golden beverage has witnessed centuries of American history, from early European settlements until the inception of the United States, to recent times including the Prohibiton and finally the Internet Age. The first thing that comes to mind is that beer probably went through some changes during these 400 years. But is that what actually makes beer special to America? Hold my beer. What if the perception of beer in the common American memory was the real treasure here? Every generation perceived beer in the light of its own era, depending on the technologies available at the time. The result is a diverse heritage consisting of books, maps, and more recently, blogs. So how does the Internet carry the heritage of American beer? Here is our attempt to answer by resuming the early history of American beer, then analysing blog datasets in search for traces of that history in today's younger minds. 
 
 ![image-center](/assets/images/beers.jpg "https://unsplash.com"){: .align-center}
-<link rel="stylesheet" href="{{ site.baseurl }}/css/css.css">
-<script src="{{ site.baseurl }}/js/scripts.js"></script>
-<img src="{{ site.baseurl }}/assets/images/beers.jpg">
-<a href="{{ site.baseurl }}/linkto/">Link</a>
+<img src="{{ site.baseurl }}./assets/images/beers.jpg">
 
 # Beer and America
 
